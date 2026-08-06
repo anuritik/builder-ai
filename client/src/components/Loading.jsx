@@ -1,3 +1,5 @@
+//BAI->client->src->components->Loading.jsx
+
 import { Loader2Icon } from "lucide-react";
 
 const Loading = () => {
