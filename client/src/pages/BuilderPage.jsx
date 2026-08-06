@@ -1,3 +1,5 @@
+//BAI->client->src->pages->BuilderPage.jsx
+
 import React from "react";
 
 const BuilderPage = () => {
