@@ -10,7 +10,7 @@ import authRouter from "./routes/authRoutes.js";
 const app = express();
 
 //Connection to DB
-connectToDatabase();
+await connectToDatabase();
 
 app.use(cors({ origin: process.env.ORIGINS.split(","), credentials: true }));
 app.use(cookieParser());
