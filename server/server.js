@@ -17,6 +17,7 @@ app.use(cors({ origin: process.env.ORIGINS.split(","), credentials: true }));
 app.use(cookieParser());
 app.use(express.json());
 
+//api
 app.get("/", (req, res) => res.send("Server is Live!"));
 app.use("/api/auth", authRouter);
 app.use("/api/projects", projectRouter);
