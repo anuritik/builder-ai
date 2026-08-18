@@ -8,7 +8,7 @@ import React, {
   useState,
   useMemo,
 } from "react";
-import api from "../api/api";
+import api from "../api/api.js";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import debounce from "lodash.debounce";
